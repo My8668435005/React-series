@@ -21,12 +21,12 @@ This repository is designed to reflect those qualities.
 ---
 
 ## 🔗 Next Steps
-- Week 1 → Understanding **react** and **component-based architecture**
-- Week 2 → Project setup with **Vite/CRA**, JSX deep dive, and styling basics.
-- Week 3 → **Hooks (useState, useEffect)** and lifecycle management.
-- Week 4 → **Routing, Context API**, and advanced state handling.
-- Week 5 → **Integration with backend APIs** (Flask/Django).
-- Week 6 → **Performance optimization, testing, and deployment**.
+- Module 1 → Understanding **react** and **component-based architecture**
+- Module 2 → Project setup with **Vite/CRA**, JSX deep dive, and styling basics.
+- Module 3 → **Hooks (useState, useEffect)** and lifecycle management.
+- Moduel 4 → **Routing, Context API**, and advanced state handling.
+- Module 5 → **Integration with backend APIs** (Flask/Django).
+- Module 6 → **Performance optimization, testing, and deployment**.
 
 ---
 
