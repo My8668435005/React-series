@@ -182,13 +182,3 @@
     border-right-color: var(--border);
   }
 }
-
-
-
-button{
-  height: 100px;
-  width: 160px;
-  background-color: azure;
-  color: black;
-  
-}
