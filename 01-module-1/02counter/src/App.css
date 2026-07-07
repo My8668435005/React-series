@@ -1,0 +1,43 @@
+#Appcomponent {
+  display: flex;
+  flex-direction: column;   /* stack items vertically */
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  width: 500px;
+  margin: auto;
+  border: 1px solid #ccc;   /* optional visual boundary */
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3rem;          /* large heading */
+  margin: 0;
+}
+
+.buttonRow {
+  display: flex;
+  gap: 20px;                /* space between buttons */
+}
+
+button {
+  height: 80px;
+  width: 100px;
+  background-color: rgb(137, 196, 30);
+  color: black;
+  border-radius: 13px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(120, 170, 25); /* optional hover effect */
+}
+
+h2{
+  font-size: 3rem;
+}
+

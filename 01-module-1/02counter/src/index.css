@@ -1,0 +1,16 @@
+#root{
+  background-color: blueviolet;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+#headerElement{
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  width: 100%;
+  background-color: rgb(205, 238, 59);
+}
