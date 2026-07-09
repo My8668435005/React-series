@@ -1,0 +1,15 @@
+#formdiv {
+  display: flex;
+  justify-content: center;   /* centers horizontally */
+  align-items: center;       /* centers vertically */
+  height: 200px;
+  width: 100%;
+  background-color: rgb(29, 66, 54);
+}
+
+form {
+  display: flex;             /* make form itself a flex container */
+  flex-direction: column;    /* stack inputs vertically */
+  align-items: center;       /* center inputs horizontally */
+  gap: 10px;                 /* spacing between inputs */
+}

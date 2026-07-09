@@ -1,0 +1,167 @@
+## module - 03
+
+**Introduction: Building Modern UIs with React Components**
+
+## module's learning objectives:
+
+Understand the principles of component-based UI development
+Set up a React project using Create React App
+Create and render basic React components
+Manage component state and props
+
+
+**Understanding components is not just about writing code; it's about adopting a mindset that leads to more organized, scalable, and efficient development.**
+
+
+
+## Understanding Functional Components: The Building Blocks of React
+
+Think of them as independent, reusable pieces of UI
+
+Instead of writing one massive HTML file, you break your user interface down into smaller, manageable parts
+
+This approach makes your code easier to understand,
+
+*What are Functional Components?*
+
+A functional component is essentially a JavaScript function that accepts an optional single argument (the props object) and returns a React element.
+
+structure of a functional component:goto dir:  examples/module3/functionalComponent
+
+How to Implement Functional Components : 
+
+Step 1: Create a new file for your component:
+
+src/components
+Let's create a file named Greeting.js
+
+
+Step 2: Define the functional component:
+
+import React from 'react'; // Import React (necessary for JSX)
+
+function Greeting(props) {
+  return (
+    <div>
+      <h1>Hello, {props.name}!</h1>
+      <p>Welcome to our application.</p>
+    </div>
+  );
+}
+
+export default Greeting;
+
+
+## Rendering Components: Bringing Your UI to Life :
+
+ telling React which components to display and where to place them within the DOM (Document Object Model). 
+
+ Let's build upon our previous Greeting component and render it within the main App component.
+
+ Ensure you have an App.js file. 
+
+  Modify App.js to import and render your custom component.(Greeting.js)
+
+  import Greeting from './components/Greeting'; // Import the Greeting component
+
+  <>
+  <Greeting name='Student' />
+  </>
+
+
+
+  ## Passing Data with Props: Enabling Component Communication
+
+  What are Props?
+
+  Props (short for properties) are a mechanism for passing data from a parent component down to a child component.
+
+   They are read-only
+
+   Props are like arguments passed to a function. When you render a component in JSX, you can pass attributes to it, and these attributes become properties of the props object in the child component.
+
+   it is in // src/App.js
+
+   ## giving props atribute in function calling
+   <UserProfile name='Alice' age={30} />
+
+   it is in // src/components/UserProfile.js
+
+   ## accessing props
+   function UserProfile(props) {
+
+  // Destructuring props for easier access
+     const { name, age } = props;
+
+   }
+
+   
+Passing Complex Data
+You can pass any valid JavaScript data type as props:
+
+Objects: 
+Arrays: 
+Booleans: 
+Functions:
+
+
+**Prop Types: PropTypes library used to define the expected types for your props**
+
+Example using PropTypes: goto file examples/module3/propsTypes
+
+
+
+## Managing Dynamic Data with `useState` Hook
+
+What is State?
+
+State refers to data that belongs to a specific component and can change during the component's lifecycle.
+
+When a component's state changes, React automatically re-renders the component to reflect the updated data in the UI. 
+
+What is the `useState` Hook?
+
+useState is a built-in React Hook that allows you to add state variables to functional components. 
+
+ When you call useState, you get back an array containing two elements
+
+ 1] The current state value.
+ 2] A function to update that state value.
+
+ The syntax looks like this:
+
+import React, { useState } from 'react';
+
+function MyComponent() {
+  const [stateVariable, setStateVariable] = useState(initialValue);
+  // ... component logic ...
+}
+
+
+How to Implement State Management with `useState` : counter app goto "project/module1/counter"
+
+
+## Creating and Using React Components
+
+
+*Handling User Interactions with Event Listeners*
+
+Common events include:
+
+onClick: When an element is clicked.
+
+onChange: When the value of an input element (like input, textarea, select) changes.
+
+onSubmit: When a form is submitted.
+
+onMouseEnter, onMouseLeave: For mouse interactions.
+
+onKeyDown, onKeyUp: For keyboard interactions.
+
+
+How to Implement Event Handling : goto counter app in project folder
+
+<button onClick={handleIncrementClick}>
+
+
+
