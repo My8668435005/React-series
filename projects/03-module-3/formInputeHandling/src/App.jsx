@@ -16,10 +16,12 @@ function App() {
     setEmail(event.target.value)
   }
 
+  let submit = false
   const handleSubmit = () => {
     alert("wellcome "+name)
-  }
+    submit = true
 
+  }
 
   return (
     <>
