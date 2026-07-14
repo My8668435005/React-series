@@ -177,5 +177,3 @@ By the end of this module, you’ll:
 - Code snippets with file references.  
 - Practical project examples.  
 - Best practices embedded naturally.  
-
-Would you like me to also prepare a **diagram of component hierarchy (TaskListContainer → TaskItem → AddTaskForm)** in Markdown ASCII style so your repo looks even more interactive?
