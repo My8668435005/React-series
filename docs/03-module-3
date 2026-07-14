@@ -164,4 +164,36 @@ How to Implement Event Handling : goto counter app in project folder
 <button onClick={handleIncrementClick}>
 
 
+**Conditional Rendering: Displaying Content Dynamically
+**
+
+conditional rendering, allowing you to dynamically show or hide UI elements.
+
+like if statements, ternary operators, or logical &&
+
+based on the current state, props, or other dynamic data.
+
+
+Using the Ternary Operator (`condition ? trueValue : falseValue`)
+
+examples/module3/ConditionalRendering
+
+implementing conditional Rendering in projects/module3/LodingComponent
+
+
+**Practical Application: Building a Complete Component Example**
+/projects/module3/TaskList
+
+slightly more complex component that utilizes functional components, props, state, event handling, and conditional rendering.
+
+This application will allow users to:
+
+See a list of tasks.
+Add new tasks.
+Mark tasks as completed.
+Optionally, filter tasks to show only active or completed ones.
+
+TaskListContainer: The main component that manages the state of all tasks and renders other components.
+TaskItem: A component to display a single task.
+AddTaskForm: A form to add new tasks.
 
