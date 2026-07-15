@@ -1,0 +1,66 @@
+.toggle-container {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.toggle-container h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.switch-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.switch-base {
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ccc;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border: 2px solid #ccc;
+}
+
+.switch-base.on {
+  background-color: #4CAF50; /* Green when ON */
+  border-color: #4CAF50;
+}
+
+.switch-handle {
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  transition: transform 0.3s ease;
+}
+
+.switch-base.on .switch-handle {
+  transform: translateX(40px); /* Move handle to the right */
+}
+
+.switch-status {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #555;
+}
+
+.switch-base:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
