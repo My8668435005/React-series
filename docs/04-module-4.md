@@ -236,7 +236,31 @@ refer image for better understanding of structure - assets/itemCart.png
 
 
 
+## Practical Application: Consolidating State Management
 
 
+looking at a slightly more complex scenario where multiple pieces of state interact. This often happens in real-world applications
+
+such as managing the state of a search bar with associated results and loading indicators.
+
+*Scenario: A Search Component with Results*
+
+Imagine a component that allows users to search for something (e.g., users, products) and displays the results. This involves managing:
+
+The current search query (a string).
+The list of search results (an array).
+A loading indicator (a boolean).
+Potentially, an error message (a string or null).
 
 
+*Objective: Build a simple search component that simulates fetching data and displays results, including a loading state.*
+
+Step 1: Create the Search Component
+
+Step 2: Add CSS for Styling
+
+Step 3: Integrate into your App
+
+for better understanding - got assets/searchBar
+
+for code - goto - projects/module4/multiform
