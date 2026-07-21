@@ -30,6 +30,3 @@ This repository is designed to reflect those qualities.
 
 ---
 
-## 📬 Connect
-If you’re a recruiter, mentor, or fellow developer, feel free to explore my projects and reach out!
-
