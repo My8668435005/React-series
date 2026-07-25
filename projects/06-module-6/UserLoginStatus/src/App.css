@@ -1,0 +1,15 @@
+/* src/App.css (additions) */
+
+.auth-button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.app-container.dark .auth-button {
+  /* Example: adjust dark mode button styles */
+}

@@ -1,0 +1,75 @@
+/* src/App.css */
+
+/* Default (Light) Theme Styles */
+.app-container {
+  font-family: sans-serif;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.app-container.light {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.themed-box {
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: 1px solid #cccccc;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.themed-box.light {
+  background-color: #f0f0f0;
+  border-color: #dddddd;
+}
+
+.themed-card {
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.themed-card.light {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.theme-toggle-button {
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.theme-toggle-button.light {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Dark Theme Styles */
+.app-container.dark {
+  background-color: #282c34;
+  color: #ffffff;
+}
+
+.themed-box.dark {
+  background-color: #3a3f47;
+  border-color: #4a4f57;
+}
+
+.themed-card.dark {
+  background-color: #3a3f47;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.theme-toggle-button.dark {
+  background-color: #61dafb;
+  color: #282c34;
+}
