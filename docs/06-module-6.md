@@ -153,7 +153,31 @@ User authentication is a crucial feature for many applications. In a React appli
 Objective:
 Create a system where a user can log in and log out. Components will display authentication status and conditionally render UI elements based on that status.
 
+Practice Exercises to Reinforce Learning:
 
+To prepare thoroughly, consider working through the following practice exercises:
+
+To-Do List Application:
+Use useState to manage the list of to-do items and the input field for new items.
+Use useEffect to potentially save the to-do list to local storage (as a side effect) when it changes.
+Use useContext to manage a global filter state (e.g., "All", "Active", "Completed") that affects which to-do items are displayed.
+Simple E-commerce Cart:
+Use useState for managing the quantity of items in a specific product card.
+Use useContext to manage the global shopping cart state (list of items, total price).
+Use useEffect to potentially fetch product data or update the cart total when items are added/removed.
+Implement conditional rendering based on whether a user is logged in (using a mock authentication context).
+Quiz Application:
+Use useState for managing the current question, user's answer, and score.
+Use useEffect to fetch quiz questions from a mock API.
+Use useContext to manage a global setting for the quiz difficulty level, which might affect the questions fetched or the scoring.
+Key Areas to Focus On:
+
+Understanding Component Scope: Clearly differentiate between state that belongs to a single component and state that needs to be shared globally.
+Context Design: Practice creating well-defined contexts with appropriate default values and provider structures.
+Hook Integration: Seamlessly integrate useState, useEffect, and useContext within functional components.
+Prop Drilling Avoidance: Actively look for opportunities to replace prop drilling with context.
+Debugging: Be prepared to debug issues related to state updates, context consumption, and side effects. Use React DevTools to inspect component state and props.
+By actively practicing these concepts and working through the suggested exercises, you will build the confidence and proficiency needed to excel in the Module 6 Assessment and in your future full-stack development endeavors.
 
 
 
