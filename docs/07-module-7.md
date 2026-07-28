@@ -180,7 +180,7 @@ React's React.cloneElement and React.Children utilities can help with this, thou
 
 For instance, if you wanted to automatically add a specific class to every direct child of your Card component:
 
-
+goto examples/module7/PassingPropsToChildren
 
 
 
