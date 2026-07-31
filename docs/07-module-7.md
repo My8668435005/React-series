@@ -196,6 +196,10 @@ Wrapper Components: Components that add styling, behavior, or context around oth
 List Components: A List component might accept children which are expected to be ListItem components.
 Form Components: A Form component might accept children which are various form input elements.
 
+*Advanced Usage: Passing Props to `children`*
+
+Sometimes, you might want to pass additional props to the children rendered by a component. React's React.cloneElement and React.Children utilities can help with this, though they should be used judiciously as they can sometimes make components harder to reason about.
+
 
 
 
