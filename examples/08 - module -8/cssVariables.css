@@ -1,0 +1,12 @@
+/* src/styles/global.css */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --spacing-medium: 16px;
+}
+
+/* src/components/Card/Card.module.css */
+.card {
+  padding: var(--spacing-medium);
+  border: 1px solid var(--primary-color);
+}
