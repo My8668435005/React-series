@@ -1,0 +1,41 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Primary theme styles */
+.primary {
+  border-color: #007bff;
+  background-color: #e7f3ff;
+}
+
+.primary:hover {
+  box-shadow: 0 6px 12px rgba(0, 123, 255, 0.2);
+}
+
+/* Secondary theme styles */
+.secondary {
+  border-color: #6c757d;
+  background-color: #f8f9fa;
+}
+
+.secondary:hover {
+  box-shadow: 0 6px 12px rgba(108, 117, 125, 0.2);
+}
+
+/* Card title styles */
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Card content styles */
+.content {
+  font-size: 1rem;
+  color: #333;
+}
