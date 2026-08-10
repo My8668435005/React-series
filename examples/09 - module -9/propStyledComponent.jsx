@@ -1,0 +1,1 @@
+//dynamic props styled component
