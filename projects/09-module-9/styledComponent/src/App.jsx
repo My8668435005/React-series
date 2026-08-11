@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import StyledButton from './components/Button'; // Assuming Button.js is in src/components
+ // Assuming Button.js is in src/components
 import StyledButton from './components/Button';
 import StyledInput from './components/Input';
 
